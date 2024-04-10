@@ -6,10 +6,14 @@ _your zenodo badge here_
 
 Hongxiang Yan<sup>1\*</sup>, Ning Sun<sup>1</sup>, Hisham Eldardiry<sup>1</sup>, Travis B. Thurber<sup>1</sup>, Patrick M. Reed<sup>2</sup>, Keyvan Malek<sup>2</sup>, Rohini Gupta<sup>2</sup>, Daniel Kennedy<sup>3</sup>, Sean C. Swenson<sup>3</sup>, Zhangshuan Hou<sup>1</sup>, Yanyan Cheng<sup>4</sup>, Jennie S. Rice<sup>1</sup>
 
-<sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA 
+<sup>1 </sup> Pacific Northwest National Laboratory, Richland, WA, USA
+
 <sup>2 </sup> Department of Civil and Environmental Engineering, Cornell University, Ithaca, NY, USA
+
 <sup>3 </sup> National Center for Atmospheric Research, Boulder, CO, USA
+
 <sup>4 </sup> Department of Industrial Systems Engineering and Management, National University of Singapore, Singapore, Singapore
+
 
 \* Correspondence: Hongxiang Yan, hongxiang.yan@pnnl.gov
 
@@ -51,8 +55,6 @@ Yan, H. (2024). Behavioral Ensemble CLM5 Hydrological Parameter Sets (v1.0.0) [D
 
 ## Reproduce my experiment
 
-The experimental design and workflow are documented in https://github.com/IMMM-SFA/clm_hydroparameter_calibration.
-
 Clone the [IM3 CLM repository](https://github.com/IMMM-SFA/im3-clm) to set up the CLM5 model, you will need to download the NLDAS-2 forcing data and convert them into NetCDF format. You will also need to generate ensemble [hydrological parameter value files](https://doi.org/10.57931/2274938) following the workflow documented [here](https://github.com/IMMM-SFA/clm_hydroparameter_calibration). The [output data repository](https://doi.org/10.57931/1922953) already contains the ensemble output from the CLM5 model so you can skip rerunning the CLM5 model if you want to save time.
 
 ## Reproduce my figures
@@ -62,7 +64,7 @@ Use the scripts found in the `figures` directory to reproduce the figures used i
 ## Reproduce My Figures
 | Figure Number | Script Name | Description | Figure |
 |:-------------:|:-----------:|:-----------:|:------:|
-| Figure 1      | Overlay the cluster points on a shapefile of US States using software such as QGIS | Locations and clustering of the CAMELS basins | <a href="./figures/Figure 1.tif"><img width="100" src="./figures/Figure 1.tif"/></a> |
+| Figure 1      | Overlay the basin clusters on a shapefile of US States using software such as QGIS | Locations and clustering of the CAMELS basins | <a href="./figures/Figure 1.png"><img width="100" src="./figures/Figure 1.png"/></a> |
 | Figure 2      | [Figure_2.m](./figures/Figure_2.m) | Describe the default parameter performance in KGE | <a href="./figures/Figure 2.png"><img width="100" src="./figures/Figure 2.png"/></a> |
 | Figure 3      | [Figure_3.m](./figures/Figure_3.m) | Describe the default parameter performance in flow bias | <a href="./figures/Figure 3.png"><img width="100" src="./figures/Figure 3.png"/></a> |
 | Figure 4      | [Figure_4.m](./figures/Figure_4.m) | Describe the coefficient of variation  | <a href="./figures/Figure 4.png"><img width="100" src="./figures/Figure 4.png"/></a> |
