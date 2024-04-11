@@ -45,8 +45,6 @@ NLDAS project (2021), NLDAS Primary Forcing Data L4 Hourly 0.125 x 0.125 degree 
 
 Yan, H., Sun, N., Eldardiry, H., Thurber, T., Reed, P. M., Malek, K., Gupta, R. S., Kennedy, D., Swenson, S., Vernon, C. R., Burleyson, C. D., & Rice, J. S. (2022). CLM5 CAMELS Basins Ensemble (v0.0.2) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/1884563
 
-Yan, H. (2024). Behavioral Ensemble CLM5 Hydrological Parameter Sets (v1.0.0) [Data set]. MSD-LIVE Data Repository. https://doi.org/10.57931/2274938
-
 ## Contributing Modeling Software
 
 | Model   | Version | Repository Link | DOI |
@@ -55,13 +53,12 @@ Yan, H. (2024). Behavioral Ensemble CLM5 Hydrological Parameter Sets (v1.0.0) [D
 
 ## Reproduce my experiment
 
-Clone the [IM3 CLM repository](https://github.com/IMMM-SFA/im3-clm) to set up the CLM5 model, you will need to download the NLDAS-2 forcing data and convert them into NetCDF format. You will also need to generate ensemble [hydrological parameter value files](https://doi.org/10.57931/2274938) following the workflow documented [here](https://github.com/IMMM-SFA/clm_hydroparameter_calibration). The [output data repository](https://doi.org/10.57931/1922953) already contains the ensemble output from the CLM5 model so you can skip rerunning the CLM5 model if you want to save time.
-
-## Reproduce my figures
-
-Use the scripts found in the `figures` directory to reproduce the figures used in this publication.
+Clone the [IM3 CLM repository](https://github.com/IMMM-SFA/im3-clm) to set up the CLM5 model, you will need to download the NLDAS-2 forcing data and convert them into NetCDF format. You will also need to generate ensemble hydrological parameter value files following the workflow documented [here](https://github.com/IMMM-SFA/clm_hydroparameter_calibration). The [output data repository](https://doi.org/10.57931/1922953) already contains the ensemble output from the CLM5 model so you can skip rerunning the CLM5 model if you want to save time.
 
 ## Reproduce My Figures
+
+Use the scripts found in the `figures` directory to reproduce the figures used in this publication:
+
 | Figure Number | Script Name | Description | Figure |
 |:-------------:|:-----------:|:-----------:|:------:|
 | Figure 1      | Overlay the basin clusters on a shapefile of US States using software such as QGIS | Locations and clustering of the CAMELS basins | <a href="./figures/Figure 1.png"><img width="100" src="./figures/Figure 1.png"/></a> |
